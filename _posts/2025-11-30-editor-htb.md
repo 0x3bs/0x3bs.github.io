@@ -1,6 +1,6 @@
 ---
 title: Editor HTB
-date: 2025-11-30
+date: 2024-11-30
 categories: [Hack-The-Box]
 tags: [CVEs, HTB, PrivEsc]
 author: 0x3bs
