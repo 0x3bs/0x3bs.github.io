@@ -6,6 +6,9 @@ tags: [CVEs, HTB, PrivEsc]
 author: 0x3bs
 ---
 
+
+![](/assets/images/editor/7.png)
+
 ---
 > ### Quick Navigation
 > - [Enumeration](#enumeration)
@@ -252,6 +255,6 @@ root@editor:/home/oliver#
 
 ```
 
-![](/assets/images/editor/7.png)
+![](/assets/images/editor/7.jpg)
 
 And that's it ....... see you later🙆‍♂️
