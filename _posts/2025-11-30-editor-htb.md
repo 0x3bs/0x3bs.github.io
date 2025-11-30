@@ -9,7 +9,7 @@ author: 0x3bs
 > ### Quick Navigation
 > - [Enumeration](#enumeration)
 > - [Exploitation](#exploitation)
-
+> - [SSH Creds](#ssh-credentials)
 > - [Privilege Escalation](#privilege-escalation)
   
 
