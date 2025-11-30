@@ -1,10 +1,18 @@
 ---
 title: Editor HTB
 date: 2025-11-30
-categories: [HTB]
+categories: [Hack-The-Box]
 tags: [HTB, CVEs, PrivEsc]
 author: 0x3bs
 ---
+
+
+
+  > ### Quick Navigation
+  > - [Enumeration](#Enumeration)
+  
+
+ 
 
 
 # Enumeration 
