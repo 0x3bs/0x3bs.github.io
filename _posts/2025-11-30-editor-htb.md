@@ -9,7 +9,7 @@ author: 0x3bs
 
 
 > ### Quick Navigation
-> - [Enumeration](#Enumeration)
+> - [Enumeration](#enumeration)
   
 
  
