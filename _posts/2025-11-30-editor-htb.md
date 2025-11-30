@@ -8,8 +8,8 @@ author: 0x3bs
 
 
 
-  > ### Quick Navigation
-  > - [Enumeration](#Enumeration)
+> ### Quick Navigation
+> - [Enumeration](#Enumeration)
   
 
  
