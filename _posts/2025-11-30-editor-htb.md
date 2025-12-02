@@ -4,7 +4,7 @@ date: 2025-11-30
 categories: [HTB_easy]
 tags: [CVE-2024-32019s, CVE-2025-24893, HTB, PrivEsc]
 author: 0x3bs
-published: true
+published: false
 image: /assets/images/editor/pp-removebg-preview.png  
 ---
 
