@@ -1,5 +1,5 @@
 ---
-title: Editor HTB
+title: Conversor HTB
 date: 2025-12-2
 categories: [Hack-The-Box]
 tags: [CVE-2024-48990, HTB, PrivEsc, injection, Cracking passwords, Web Exploitation]
