@@ -1,10 +1,10 @@
 ---
 title: Editor HTB
-date: 2024-11-30
+date: 2025-11-30
 categories: [Hack-The-Box]
-tags: [CVEs, HTB, PrivEsc]
+tags: [CVE-2024-32019s, CVE-2025-24893, HTB, PrivEsc]
 author: 0x3bs
-published: false
+published: true
 image: /assets/images/editor/pp-removebg-preview.png  
 ---
 
