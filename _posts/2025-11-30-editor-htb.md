@@ -4,7 +4,7 @@ date: 2024-11-30
 categories: [Hack-The-Box]
 tags: [CVEs, HTB, PrivEsc]
 author: 0x3bs
-published: false
+#published: false
 image: /assets/images/editor/pp-removebg-preview.png  
 ---
 
