@@ -1,7 +1,7 @@
 ---
 title: Editor HTB
 date: 2025-11-30
-categories: [Hack-The-Box]
+categories: [Hack-The-Box_easy]
 tags: [CVE-2024-32019s, CVE-2025-24893, HTB, PrivEsc]
 author: 0x3bs
 published: true
