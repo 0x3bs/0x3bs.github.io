@@ -44,7 +44,7 @@ Noticed that there is `22/tcp` port is open and `80/tcp` too .
 
 Let's check for the website which is `marco` blog :
 
-![](/assets/images/thm/year_of_the_pig/0png.png)
+![](/assets/images/thm/year_of_the_pig/0.png)
 
 It's seems like normal blog .....
 
