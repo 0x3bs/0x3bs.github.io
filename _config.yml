@@ -19,7 +19,7 @@ timezone:
 
 title: 0x3bs # the main title
 
-tagline: 0x3bs Blog # it will display as the subtitle
+tagline: 0x3bs's Blog # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   writeups , htb , hack the box , thm , try hack me , CTFs
