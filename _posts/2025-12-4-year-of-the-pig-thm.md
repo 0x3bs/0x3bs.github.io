@@ -118,7 +118,7 @@ mmmmmmm it's redirect us to `.../login.php/` and after typing any this in these 
 
 Okay let's go back to the blog to find any hints >>
 
-![](/assets/images/thm/year_of_the_pig\2.png)
+![](/assets/images/thm/year_of_the_pig/2.png)
 
 this was the hint which is `Savoia S.12` .... So the password should be like that >>
 
