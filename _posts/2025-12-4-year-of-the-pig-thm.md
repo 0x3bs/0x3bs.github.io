@@ -45,6 +45,7 @@ Noticed that there is `22/tcp` port is open and `80/tcp` too .
 Let's check for the website which is `marco` blog :
 
 ![](/assets/images/thm/year_of_the_pig/0.png)
+*the blog*
 
 It's seems like normal blog .....
 
@@ -113,12 +114,14 @@ okay the most interesting directories is `.../admin/` And `.../api/`
 let's check `.../admin/` :
 
 ![](/assets/images/thm/year_of_the_pig/1.png)
+*hint for the correct password syntax*
 
 mmmmmmm it's redirect us to `.../login.php/` and after typing any this in these fields it's gave us a hint about password which is the password should be a memorable word (for marco) and followed y 2 numbers and 1 special char . 
 
 Okay let's go back to the blog to find any hints >>
 
 ![](/assets/images/thm/year_of_the_pig/2.png)
+*it's lock like the password*
 
 this was the hint which is `Savoia S.12` .... So the password should be like that >>
 
@@ -193,10 +196,12 @@ So let's check this by sending a test login creds >
 Creds will be > `macro` : `test`
 
 ![](/assets/images/thm/year_of_the_pig/4.png)
+*test to get how the password send in /api/login*
 
 let's show it using `burp suite` :
 
 ![](/assets/images/thm/year_of_the_pig/5.png)
+*test password in burp suite*
 
 So the password sent as `md5` hash in `.../api/login`
 
@@ -312,6 +317,7 @@ hashcat -m 0 -a 0 "ea22b622ba9b3c41b22785dcb40211ac" pass2.txt
 ```
 
 ![](/assets/images/thm/year_of_the_pig/7.png)
+*correct password*
 
 So the password will be : `savoia21!`
 
@@ -326,6 +332,7 @@ After login to `../admin/` with the creds :
 I found this part if the page >>
 
 ![](/assets/images/thm/year_of_the_pig/8.png)
+*execute command*
 
 I tried these commands >
 
@@ -385,6 +392,7 @@ I found a database `/var/www/admin.db` but `www-data` the only user who can read
 And there is `php` file `/var/www/html/admin/command.php` 
 
 ![](/assets/images/thm/year_of_the_pig/6.png)
+*know the perm for the files*
 
 okay bc we can write in this file let's write  code which we can execute commands as `ww-data` :
 
@@ -430,6 +438,7 @@ sqlite>
 Okay let's crack `curtis` password hash >>
 
 ![](/assets/images/thm/year_of_the_pig/9.png)
+*crack curtis's password hash*
 
 so the password for user `curtis` : `Donald1983$` 
 
@@ -536,3 +545,4 @@ root.txt
 root@year-of-the-pig:/var/www/html/test/test2# 
 ```
 
+And that's it ....... see you later🙆‍♂️
