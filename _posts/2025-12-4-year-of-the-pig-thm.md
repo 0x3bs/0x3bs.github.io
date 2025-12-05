@@ -116,7 +116,7 @@ let's check `.../admin/` :
 ![](/assets/images/thm/year_of_the_pig/1.png)
 *hint for the correct password syntax*
 
-mmmmmmm it's redirect us to `.../login.php/` and after typing any this in these fields it's gave us a hint about password which is the password should be a memorable word (for marco) and followed y 2 numbers and 1 special char . 
+mmmmmmm it's redirect us to `.../login.php/` and after typing any this in these fields it's gave us a hint about password which is the password should be a memorable word (for marco) and followed by 2 numbers and 1 special char . 
 
 Okay let's go back to the blog to find any hints >>
 
@@ -234,7 +234,7 @@ done
 
 > #### Brute Force
 
-Let's brute fore with `fuff` :
+Let's brute force with `fuff` :
 
 
 the syntax :
