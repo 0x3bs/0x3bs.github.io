@@ -68,9 +68,7 @@ we need to add the domain to `/etc/hosts`
   
 
 ```bash
-
 ┌──(root㉿0x3bs)-[/home/e_3bs/Desktop/htb/Editor]
-
 └─# cat /etc/hosts  
 
 127.0.0.1       localhost
