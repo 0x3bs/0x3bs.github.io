@@ -4,7 +4,7 @@ date: 2025-12-4
 categories: [THM_hard]
 tags: [THM, sudoedit_PrivEsc PrivEsc, Cracking passwords, Password Attack, Web Discovering]
 author: 0x3bs
-published: true
+published: True
 image: /assets/images/thm/year_of_the_pig/pig.jpeg  
 ---
 
