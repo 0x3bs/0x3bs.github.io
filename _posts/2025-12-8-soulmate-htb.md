@@ -4,7 +4,7 @@ date: 2025-12-8
 categories: [HTB_easy]
 tags: [CVE-2025-31161, HTB, PrivEsc, injection, Web Exploitation, Command Execution]
 author: 0x3bs
-published: true
+published: false
 image: /assets/images/htb/soulmate/pic__.png  
 ---
 
