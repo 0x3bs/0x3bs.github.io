@@ -1,6 +1,6 @@
 ---
 title: HTB - Editor
-date: 2025-11-30
+date: 2025-12-6
 categories: [HTB_easy]
 tags: [CVE-2024-32019s, CVE-2025-24893, HTB, PrivEsc]
 author: 0x3bs
