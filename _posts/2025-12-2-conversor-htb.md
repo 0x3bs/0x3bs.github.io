@@ -4,7 +4,7 @@ date: 2025-12-2
 categories: [HTB_easy]
 tags: [CVE-2024-48990, HTB, PrivEsc, injection, Cracking passwords, Web Exploitation]
 author: 0x3bs
-published: false
+published: False
 image: /assets/images/conversor/nachine-removebg-preview.png  
 ---
 
