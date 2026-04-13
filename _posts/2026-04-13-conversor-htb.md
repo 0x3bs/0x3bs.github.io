@@ -1,6 +1,6 @@
 ---
 title: HTB - Conversor
-date: 2026-04-14
+date: 2026-04-13
 categories: [HTB_easy]
 tags: [CVE-2024-48990, HTB, PrivEsc, injection, Cracking passwords, Web Exploitation]
 author: 0x3bs
