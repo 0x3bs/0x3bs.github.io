@@ -1,6 +1,6 @@
 ---
 title: HTB - Soulmate
-date: 2025-12-8
+date: 2026-2-16
 categories: [HTB_easy]
 tags: [CVE-2025-31161, HTB, PrivEsc, injection, Web Exploitation, Command Execution]
 author: 0x3bs
